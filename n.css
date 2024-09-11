@@ -4,9 +4,9 @@
   
 }
 
-.table{
-    table-layout: fixed;
-    width: 100%;
-    border-collapse: collapse;
+.table,td,tr{
+    border-collapse:collapse;
     border: 3px solid purple;
 }
+
+

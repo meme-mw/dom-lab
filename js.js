@@ -28,7 +28,9 @@ for (let n = 1; n <= 2; n++) {
     let td2 = document.createElement("td");
     td.append("Mada");td1.append("Mada");td2.append("Mada");
     tr.append(td); tr.append(td1);tr.append(td2);
-    table.append(tr); 
+    table.append(tr);
+  
     
 }
+
 document.querySelector('body').append(table);
